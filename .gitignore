@@ -1,0 +1,21 @@
+
+# Ignore Vagrant specific files
+.vagrant/
+
+# Ignore Kubernetes configuration
+.kube/
+
+# Ignore sensitive files
+*.pem
+*.key
+
+# Ignore logs
+*.log
+
+# Ignore temporary files
+*.tmp
+*.swp
+
+# Ignore system files
+.DS_Store
+Thumbs.db

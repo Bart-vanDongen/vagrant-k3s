@@ -1,0 +1,9 @@
+helm_installs:
+  ingress-nginx:
+    repo: https://kubernetes.github.io/ingress-nginx
+    name: nginx
+    chart: ingress-nginx
+    # values:
+    #   controller.replicaCount: 2
+    #   controller.nodeSelector."kubernetes.io/os": linux
+    # values_file: /path/to/your/values.yaml
